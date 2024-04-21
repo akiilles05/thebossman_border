@@ -1,7 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
+
 author 'TheBossman'
 
+version '0.0.1'
 
 shared_script '@es_extended/imports.lua'
 
@@ -11,14 +13,12 @@ client_scripts {
 }
 
 ui_page {
-	'html/index.html',
+     'ui/build/index.html',
 }
 
 files {
-    'html/index.html',
-    'html/css/style.css',
-    'html/js/script.js',
-    'html/img/logo.png',
+    'ui/build/index.html',
+    'ui/build/**',
 }
 
 server_scripts {
